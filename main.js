@@ -196,7 +196,7 @@ const blogPosts = [
 // Achievements Data
 const achievements = [
   'Winner at 4 National level Hackathons including Code Kshetra 2.0 (Had 15,000+ registrations)',
-  'Finalist at 4 National Level Hackathons',
+  'Finalist at 4 National Level Hackathons, participated in 15+ hackathons',
   'Head of Development at Geek Room MSIT Chapter (25,000+ members all over India)',
   '150+ coding problems solved (LeetCode, GeeksForGeeks)'
 ];
