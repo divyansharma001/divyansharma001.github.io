@@ -53,16 +53,16 @@ const projects = [
       github: 'https://github.com/divyansharma001/Harrashment-Saver-Project',
       live: 'https://safire-five.vercel.app',
       category: 'Hackathon'
-    },{
+    },
+    {
       title: 'Echo',
       description: 'AI-driven tool verifies project authenticity, detects deep code plagiarism, and assesses code quality for fair evaluations.',
       tech: ["React.js", "Node.js", "Express", "MongoDB", "TensorFlow", "PineconeDB", "BERT", "OpenAI"],
       github: 'https://github.com/divyansharma001/echo-manipal',
       live: 'https://project-verify-nine.vercel.app/',
       category: 'Hackathon'
-    }
-      
-    {
+    },
+      {
       title: 'WhisperLink',
       description: 'Anonymous messaging platform supporting 1000+ users with Gemini AI integration.',
       tech: ['Next.js', 'NextAuth', 'Zod', 'TypeScript', 'Gemini AI', 'MongoDB'],
