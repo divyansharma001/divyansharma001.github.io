@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -5,8 +6,28 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="/style.css">
   <title>Divyansh Sharma</title>
+  <style>
+    /* SVG Enhancement Styles */
+  
+    
+    .section-divider {
+      height: 60px;
+      width: 100%;
+      margin: 20px 0;
+    }
+    
+    .section-divider svg {
+      width: 100%;
+      height: 100%;
+    }
+    
+   
+  </style>
 </head>
 <body>
+  <!-- Background Pattern SVG -->
+ 
+
   <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
     <svg id="sun-icon" class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="12" cy="12" r="4"></circle>
@@ -28,6 +49,24 @@
     <!-- Header -->
     <header class="header">
       <h1 class="title fade-in">Divyansh Sharma</h1>
+      <!-- Header Accent SVG -->
+      <!-- <div class="header-accent">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 70">
+          <path class="accent-line" d="M0,40 Q125,10 250,40 T500,40" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3" />
+          <style>
+            .accent-line {
+              animation: flow 2s ease-in-out infinite;
+              stroke-dasharray: 500;
+              stroke-dashoffset: 500;
+            }
+            @keyframes flow {
+              0% { stroke-dashoffset: 500; }
+              50% { stroke-dashoffset: 0; }
+              100% { stroke-dashoffset: -500; }
+            }
+          </style>
+        </svg>
+      </div> -->
       <div class="social-links slide-up">
         <a href="https://github.com/divyansharma001" class="social-link">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -53,8 +92,8 @@
         </a>
         <a href="https://x.com/Divyansharma001" class="social-link">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"></path>
-</svg>
+            <path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"></path>
+          </svg>
           Twitter
         </a>
       </div>
@@ -69,11 +108,25 @@
       </p>
     </section>
 
+    <!-- Section Divider SVG -->
+    <div class="section-divider">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,0 C300,60 900,60 1200,0 L1200,60 L0,60 Z" fill="currentColor" opacity="0.05" />
+      </svg>
+    </div>
+
     <!-- Experience -->
     <section class="section" id="experience">
       <h2 class="section-title">Experience</h2>
       <div class="timeline"></div>
     </section>
+
+    <!-- Section Divider SVG -->
+    <div class="section-divider">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,0 C300,60 900,60 1200,0 L1200,60 L0,60 Z" fill="currentColor" opacity="0.05" />
+      </svg>
+    </div>
 
     <!-- Projects -->
     <section class="section" id="projects">
@@ -81,11 +134,25 @@
       <div class="projects-container"></div>
     </section>
 
+    <!-- Section Divider SVG -->
+    <div class="section-divider">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,0 C300,60 900,60 1200,0 L1200,60 L0,60 Z" fill="currentColor" opacity="0.05" />
+      </svg>
+    </div>
+
     <!-- Blog Posts -->
     <section class="section" id="blog">
       <h2 class="section-title">Writing</h2>
       <div class="blog-posts"></div>
     </section>
+
+    <!-- Section Divider SVG -->
+    <div class="section-divider">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,0 C300,60 900,60 1200,0 L1200,60 L0,60 Z" fill="currentColor" opacity="0.05" />
+      </svg>
+    </div>
 
     <!-- Achievements -->
     <section class="section" id="achievements">
@@ -95,5 +162,11 @@
   </div>
 
   <script type="module" src="/main.js"></script>
+  <script>
+    // Add this to make the background pattern adapt to theme changes
+    document.getElementById('theme-toggle').addEventListener('click', function() {
+      document.body.classList.toggle('dark-theme');
+    });
+  </script>
 </body>
 </html>
