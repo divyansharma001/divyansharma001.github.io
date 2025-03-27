@@ -46,128 +46,136 @@ const experiences = [
 
 // Projects Data
 const projects = [
-    {
-      title: 'Safire',
-      description: 'AI-powered harassment detection system for monitoring social media DMs.',
-      tech: ['Next.js', 'Tailwind CSS', 'Shadcn', 'JWT', 'AI/ML', 'Plasmo'],
-      github: 'https://github.com/divyansharma001/Harrashment-Saver-Project',
-      live: 'https://safire-five.vercel.app',
-      category: 'Hackathon'
-    },
-    {
-      title: 'Echo',
-      description: 'AI-driven tool verifies project authenticity, detects deep code plagiarism, and assesses code quality for fair evaluations.',
-      tech: ["React.js", "Node.js", "Express", "MongoDB", "TensorFlow", "PineconeDB", "BERT", "OpenAI"],
-      github: 'https://github.com/divyansharma001/echo-manipal',
-      live: 'https://project-verify-nine.vercel.app/',
-      category: 'Hackathon'
-    },
-      {
-      title: 'WhisperLink',
-      description: 'Anonymous messaging platform supporting 1000+ users with Gemini AI integration.',
-      tech: ['Next.js', 'NextAuth', 'Zod', 'TypeScript', 'Gemini AI', 'MongoDB'],
-      github: 'https://github.com/divyansharma001/WhisperLink',
-      category: 'Functionality'
-    },
-    {
-      title: 'Hive',
-      description: 'Full-stack social media platform with REST APIs and efficient state management.',
-      tech: ['React', 'Redux', 'Node.js', 'Express.js', 'OAuth', 'JWT', 'Supabase'],
-      github: 'https://github.com/divyansharma001/hive',
-      category: 'Functionality'
-    },
-    {
-      title: 'FoodFly',
-      description: 'E-commerce platform for food delivery with secure payments.',
-      tech: ['React', 'Tailwind', 'Node.js', 'Express.js', 'Stripe', 'PostgreSQL'],
-      github: 'https://github.com/divyansharma001/FoodFly',
-      category: 'Functionality'
-    },
-    {
-      title: 'PathVest',
-      description: 'Personal Financial Guide with modern UI.',
-      tech: ['Next.js', 'TypeScript', 'Express.js', 'Node.js', 'Aceternity UI', 'Flask'],
-      github: 'https://github.com/divyansharma001/hackathonCBS',
-      category: 'Hackathon'
-    },
-    {
-      title: 'PMMMS',
-      description: 'Platform for J&K students to submit scholarship forms.',
-      tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-      github: 'https://github.com/divyansharma001/pmss',
-      category: 'Hackathon'
-    },
-    {
-      title: 'Pranapulse',
-      description: 'Personal Yoga Guide with AI integration.',
-      tech: ['React', 'MongoDB', 'Node.js', 'Express.js', 'Flask', 'TensorFlow'],
-      github: 'https://github.com/divyansharma001/pranaPulse',
-      category: 'Hackathon'
-    },
-    {
-      title: 'BloodLink',
-      description: 'Solution for blood shortage problems.',
-      tech: ['Node.js', 'Express.js', 'Bootstrap', 'EJS', 'NodeMailer'],
-      github: 'https://github.com/divyansharma001/BloodLink',
-      category: 'Hackathon'
-    },
-    {
-      title: 'Auth',
-      description: 'One-step Next-Auth with Prisma setup.',
-      tech: ['Next.js', 'TypeScript', 'Next-Auth', 'Prisma', 'NeonDB'],
-      github: 'https://github.com/divyansharma001/Auth',
-      category: 'Side'
-    },
-    {
-      title: 'LeetAid',
-      description: 'Provides hints for LeetCode questions.',
-      tech: ['React', 'Node.js', 'Express.js', 'Groq API'],
-      github: 'https://github.com/divyansharma001/LeetAid-FE',
-      category: 'Side'
-    },
-    {
-      title: 'CypherCraft',
-      description: 'Modern Edtech Platform.',
-      tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-      github: 'https://github.com/divyansharma001/CypherCraft',
-      category: 'Side'
-    },
-    {
-      title: 'Blog-App',
-      description: 'Platform for writing and sharing blogs.',
-      tech: ['React', 'Node.js', 'Express.js', 'MySQL'],
-      github: 'https://github.com/divyansharma001/blogProject',
-      category: 'Side'
-    },
-    {
-      title: 'UV Protect',
-      description: 'Provides UV data based on location.',
-      tech: ['Node.js', 'Express.js', 'EJS', 'Geolocation API', 'UV API'],
-      github: 'https://github.com/divyansharma001/uvProtect',
-      category: 'Side'
-    },
-    {
-      title: 'Music Player',
-      description: 'Mobile app to play music.',
-      tech: ['React Native'],
-      github: 'https://github.com/divyansharma001/musicPlayer',
-      category: 'Mobile'
-    },
-    {
-      title: 'TicTacToe',
-      description: 'Classic game implementation.',
-      tech: ['React Native'],
-      github: 'https://github.com/divyansharma001/tictactoeApp',
-      category: 'Mobile'
-    },
-    {
-      title: 'Currency Converter',
-      description: 'App to convert between currencies.',
-      tech: ['React Native'],
-      github: 'https://github.com/divyansharma001/currencyConverterApp',
-      category: 'Mobile'
-    }
-  ];
+  {
+    title: 'Safire',
+    description: 'AI-powered harassment detection system for monitoring social media DMs.',
+    tech: ['Next.js', 'Tailwind CSS', 'Shadcn', 'JWT', 'AI/ML', 'Plasmo'],
+    github: 'https://github.com/divyansharma001/Harrashment-Saver-Project',
+    live: 'https://safire-five.vercel.app',
+    category: 'Hackathon'
+  },
+  {
+    title: 'Echo',
+    description: 'AI-driven tool verifies project authenticity, detects deep code plagiarism, and assesses code quality for fair evaluations.',
+    tech: ["React.js", "Node.js", "Express", "MongoDB", "TensorFlow", "PineconeDB", "BERT", "OpenAI"],
+    github: 'https://github.com/divyansharma001/echo-manipal',
+    live: 'https://project-verify-nine.vercel.app/',
+    category: 'Hackathon'
+  },
+  {
+    title: 'WhisperLink',
+    description: 'Anonymous messaging platform supporting 1000+ users with Gemini AI integration.',
+    tech: ['Next.js', 'NextAuth', 'Zod', 'TypeScript', 'Gemini AI', 'MongoDB'],
+    github: 'https://github.com/divyansharma001/WhisperLink',
+    category: 'Functionality'
+  },
+  {
+    title: 'Hive',
+    description: 'Full-stack social media platform with REST APIs and efficient state management.',
+    tech: ['React', 'Redux', 'Node.js', 'Express.js', 'OAuth', 'JWT', 'Supabase'],
+    github: 'https://github.com/divyansharma001/hive',
+    category: 'Functionality'
+  },
+  {
+    title: 'FoodFly',
+    description: 'E-commerce platform for food delivery with secure payments.',
+    tech: ['React', 'Tailwind', 'Node.js', 'Express.js', 'Stripe', 'PostgreSQL'],
+    github: 'https://github.com/divyansharma001/FoodFly',
+    category: 'Functionality'
+  },
+  {
+    title: 'PathVest',
+    description: 'Personal Financial Guide with modern UI.',
+    tech: ['Next.js', 'TypeScript', 'Express.js', 'Node.js', 'Aceternity UI', 'Flask'],
+    github: 'https://github.com/divyansharma001/hackathonCBS',
+    category: 'Hackathon'
+  },
+  {
+    title: 'PMMMS',
+    description: 'Platform for J&K students to submit scholarship forms.',
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    github: 'https://github.com/divyansharma001/pmss',
+    category: 'Hackathon'
+  },
+  {
+    title: 'Pranapulse',
+    description: 'Personal Yoga Guide with AI integration.',
+    tech: ['React', 'MongoDB', 'Node.js', 'Express.js', 'Flask', 'TensorFlow'],
+    github: 'https://github.com/divyansharma001/pranaPulse',
+    category: 'Hackathon'
+  },
+  {
+    title: 'BloodLink',
+    description: 'Solution for blood shortage problems.',
+    tech: ['Node.js', 'Express.js', 'Bootstrap', 'EJS', 'NodeMailer'],
+    github: 'https://github.com/divyansharma001/BloodLink',
+    category: 'Hackathon'
+  },
+  {
+    title: 'Auth',
+    description: 'One-step Next-Auth with Prisma setup.',
+    tech: ['Next.js', 'TypeScript', 'Next-Auth', 'Prisma', 'NeonDB'],
+    github: 'https://github.com/divyansharma001/Auth',
+    category: 'Side'
+  },
+  {
+    title: 'LeetAid',
+    description: 'Provides hints for LeetCode questions.',
+    tech: ['React', 'Node.js', 'Express.js', 'Groq API'],
+    github: 'https://github.com/divyansharma001/LeetAid-FE',
+    category: 'Side'
+  },
+  {
+    title: 'CypherCraft',
+    description: 'Modern Edtech Platform.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    github: 'https://github.com/divyansharma001/CypherCraft',
+    category: 'Side'
+  },
+  {
+    title: 'Blog-App',
+    description: 'Platform for writing and sharing blogs.',
+    tech: ['React', 'Node.js', 'Express.js', 'MySQL'],
+    github: 'https://github.com/divyansharma001/blogProject',
+    category: 'Side'
+  },
+  {
+    title: 'UV Protect',
+    description: 'Provides UV data based on location.',
+    tech: ['Node.js', 'Express.js', 'EJS', 'Geolocation API', 'UV API'],
+    github: 'https://github.com/divyansharma001/uvProtect',
+    category: 'Side'
+  },
+  {
+    title: 'Music Player',
+    description: 'Mobile app to play music.',
+    tech: ['React Native'],
+    github: 'https://github.com/divyansharma001/musicPlayer',
+    category: 'Mobile'
+  },
+  {
+    title: 'TicTacToe',
+    description: 'Classic game implementation.',
+    tech: ['React Native'],
+    github: 'https://github.com/divyansharma001/tictactoeApp',
+    category: 'Mobile'
+  },
+  {
+    title: 'Currency Converter',
+    description: 'App to convert between currencies.',
+    tech: ['React Native'],
+    github: 'https://github.com/divyansharma001/currencyConverterApp',
+    category: 'Mobile'
+  },
+  {
+    title: 'CrackIt',
+    description: 'Level up your placement game. Providing tools and insights to land offers, helping 200+ users kickstart their careers.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'Clerk', 'Vercel'],
+    github: 'https://github.com/divyansharma001/CrackIt',
+    live: 'https://dub.sh/jobrush',
+    category: 'Real Users'
+  }
+];
 
 // Blog Posts Data
 const blogPosts = [
@@ -228,7 +236,7 @@ experiences.forEach(exp => {
 
 // Render Projects
 const projectsContainer = document.querySelector('.projects-container');
-const categories = ['Functionality', 'Hackathon', 'Side', 'Mobile'];
+const categories = ['Real Users', 'Functionality', 'Side', 'Hackathon', 'Mobile' ];
 
 categories.forEach(category => {
   const categoryProjects = projects.filter(project => project.category === category);
