@@ -174,6 +174,14 @@ const projects = [
     github: 'https://github.com/divyansharma001/CrackIt',
     live: 'https://dub.sh/jobrush',
     category: 'Real Users'
+  },
+  {
+    title: 'ChicAvenue',
+    description: 'Fashion e-commerce platform with modern design and seamless shopping experience.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'MongoDB', 'Stripe'],
+    github: 'https://github.com/divyansharma001',
+    live: 'https://www.chicavenue.in',
+    category: 'Real Users'
   }
 ];
 
