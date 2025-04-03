@@ -19,6 +19,18 @@ themeToggle.addEventListener('click', () => {
 // Experience Data
 const experiences = [
   {
+    title: 'Co-Founder & Tech Lead',
+    company: 'trymodulus.com',
+    period: 'Apr 2025 - Present',
+    description: [
+      'Leading all technical development and architecture decisions for the platform',
+      'Managing and mentoring a team of development interns',
+      'Implementing full-stack solutions using modern web technologies',
+      'Overseeing deployment, scaling, and technical infrastructure'
+    ]
+  },
+
+  {
     title: 'Full Stack Developer Intern',
     company: 'Showtime',
     period: 'Feb 2025 - Present',
@@ -67,6 +79,7 @@ const projects = [
     description: 'Anonymous messaging platform supporting 1000+ users with Gemini AI integration.',
     tech: ['Next.js', 'NextAuth', 'Zod', 'TypeScript', 'Gemini AI', 'MongoDB'],
     github: 'https://github.com/divyansharma001/WhisperLink',
+    live: 'https://invisi-talk.vercel.app',
     category: 'Functionality'
   },
   {
