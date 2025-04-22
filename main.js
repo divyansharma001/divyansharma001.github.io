@@ -59,6 +59,61 @@ const experiences = [
 // Projects Data
 const projects = [
   {
+    title: 'Modulus',
+    description: 'Platform helping students excel in their careers with mentorship, interview practice, and collaborative opportunities.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Express.js', 'NeonDB', 'Prisma', 'Razorpay'],
+    live: 'https://trymodulus.com',
+    github: 'https://github.com/divyansharma001',
+    category: 'Real Users',
+    features: [
+      'Expert Mentorship & Career Guidance',
+      'Peer-to-Peer Interview Practice',
+      'Case Competition Partner Finder',
+      'Real Interview Questions & Insights'
+    ]
+  },
+  {
+    title: 'CrackIt',
+    description: 'Level up your placement game. Providing tools and insights to land offers, helping 200+ users kickstart their careers.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'Clerk', 'Vercel'],
+    github: 'https://github.com/divyansharma001/CrackIt',
+    features: [
+      'AI-Powered Hints for Coding Questions',
+      'Collection of Real Interview Questions',
+      'Clean and Modern UI',
+      'User-Friendly Navigation',
+    ],
+    live: 'https://dub.sh/jobrush',
+    category: 'Real Users'
+  },
+  {
+    title: 'Buzzy-Bees',
+    description: 'Website for pre-school kids to learn and play.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'WhatsApp API'],
+    live: 'https://buzzy-bees.com',
+    github: 'https://github.com/divyansharma001',
+    features: [
+      'Engaging animations',
+      'WhatsApp API integration for parent communication',
+      'Responsive design for mobile and desktop'
+    ],
+    category: 'Real Users'
+  },
+  {
+    title: 'ChicAvenue',
+    description: 'Fashion e-commerce platform with modern design and seamless shopping experience.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'MongoDB', 'Razorpay'],
+    features: [
+      'User-friendly interface for easy navigation',
+      'Secure payment gateway integration',
+      'Responsive design for mobile and desktop users',
+      'Admin panel for managing products and orders'
+    ],
+    github: 'https://github.com/divyansharma001',
+    live: 'https://www.chicavenue.in',
+    category: 'Real Users'
+  },
+  {
     title: 'Safire',
     description: 'AI-powered harassment detection system for monitoring social media DMs.',
     tech: ['Next.js', 'Tailwind CSS', 'Shadcn', 'JWT', 'AI/ML', 'Plasmo'],
@@ -179,22 +234,6 @@ const projects = [
     tech: ['React Native'],
     github: 'https://github.com/divyansharma001/currencyConverterApp',
     category: 'Mobile'
-  },
-  {
-    title: 'CrackIt',
-    description: 'Level up your placement game. Providing tools and insights to land offers, helping 200+ users kickstart their careers.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'Clerk', 'Vercel'],
-    github: 'https://github.com/divyansharma001/CrackIt',
-    live: 'https://dub.sh/jobrush',
-    category: 'Real Users'
-  },
-  {
-    title: 'ChicAvenue',
-    description: 'Fashion e-commerce platform with modern design and seamless shopping experience.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'MongoDB', 'Stripe'],
-    github: 'https://github.com/divyansharma001',
-    live: 'https://www.chicavenue.in',
-    category: 'Real Users'
   }
 ];
 
@@ -293,6 +332,14 @@ categories.forEach(category => {
             <div class="project-tech">
               ${project.tech.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
             </div>
+            ${project.features ? `
+              <div class="project-features">
+                <h5 class="features-title">Key Features:</h5>
+                <ul class="features-list">
+                  ${project.features.map(feature => `<li>${feature}</li>`).join('')}
+                </ul>
+              </div>
+            ` : ''}
           </div>
         `).join('')}
       </div>

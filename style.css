@@ -324,3 +324,25 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Features styles for project cards */
+.project-features {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.features-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.features-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.features-list li {
+  margin-bottom: 0.25rem;
+} 
